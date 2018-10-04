@@ -1,9 +1,14 @@
 function bandingkanangka(angka1,angka2) {
   var angka;
+  if (angka1 < angka2){
+  return true
+ } 
+  if (angka1 > angka2){
+  return false
+ }
   if (angka1 === angka2){
-  return -1;
-    }
-  return angka1 < angka2
+  return -1
+ } 
 }
 
 //TEST CASES
